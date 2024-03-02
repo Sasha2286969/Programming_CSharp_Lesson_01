@@ -1,0 +1,19 @@
+﻿@model IndexModel
+<html>
+    <body>
+        <h1>Index</h1>
+        @if (Model.Name != null)
+        {
+            <p>Hello, @Model.Name</p>
+        }
+        else
+        {
+            <form method="post">
+                <p>Enter your name:</p>
+                @Html.TextBoxFor(m => m.Name)
+                <input type="submit" value="Submit" />
+            </form>
+        }
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eum magnam asperiores modi porro id reiciendis officiis, laborum ad, provident, adipisci exercitationem doloribus libero inventore sed! Molestias ullam pariatur tenetur.</p>
+    </body>
+</html>
