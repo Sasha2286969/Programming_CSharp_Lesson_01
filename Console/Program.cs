@@ -1,14 +1,37 @@
-﻿// Console.WriteLine("Hello. What is your name?");
-//   var name = Console.ReadLine();
-// Console.WriteLine($"Hello, {name}");
-// this is a sipmle program
-Console.WriteLine("Enter argument one");
-var argument_one_str = Console.ReadLine();
-var argument_one_dig = int.Parse(argument_one_str);
-Console.WriteLine("Enter argument two");
-var argument_two_str = Console.ReadLine();
-var argument_two_dig = int.Parse(argument_two_str);
-var result = argument_one_dig + argument_two_dig;
-var result_str = result + " This is youre result";
-Console.WriteLine(result_str);
-// hihihiha
+﻿using System.Runtime.CompilerServices;
+
+Console.WriteLine("Welcom to the calculator3000, please enter +, -, / or *.");
+string abobus = Console.ReadLine();
+if(abobus == "+")
+{
+
+}
+else
+{
+    if(abobus == "-")
+    {
+
+    }
+    else
+    {
+        if(abobus == "/")
+        {
+            Console.WriteLine("Enter argument 1");
+            string argument_1_3 = Console.ReadLine();
+            int argument_1_3_dig = int.Parse(argument_1_3);
+            Console.WriteLine("Enter argument 2");
+            string argument_1_4 = Console.ReadLine();
+            int argument_1_4_dig = int.Parse(argument_1_4);
+            int result_3 = argument_1_3_dig / argument_1_4_dig;
+            string result_str228 = result_3 + " This is youre resut";
+            Console.WriteLine(result_str228);
+        }
+        else
+        {
+            if(abobus == "*")
+            {
+                
+            }
+        }
+    }
+}
